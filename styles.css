@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    user-select: none;
+}
+
+.poland{
+    font-family: "Roboto Mono", monospace;
+    font-size: 82px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+.line1{
+    position: absolute;
+    background-color: rgb(83, 161, 183);
+    width: 1200px;
+    height: 2px;
+    margin-top: 120px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.warsawImg{
+    border-radius: 5px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.wasawInfo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #ba8273;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 550px;
+}
+
+.wasawPrice{
+    font-family: "Roboto Mono", monospace;
+    font-size: 42px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.wasawBtn {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 780px;
+    font-weight: bold;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.wasawBtn:hover {
+    transform: scale(1.05);
+}
+
+.line2{
+    position: absolute;
+    background-color: rgb(83, 161, 183);
+    width: 1200px;
+    height: 2px;
+    margin-top: 450px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.krakowImg{
+    border-radius: 5px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 120px;
+}
+
+.krakowInfo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #ba8273;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 550px;
+}
+
+.krakowPrice{
+    font-family: "Roboto Mono", monospace;
+    font-size: 42px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.krakowBtn {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 780px;
+    font-weight: bold;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.krakowBtn:hover {
+    transform: scale(1.05);
+}
+
+.russia{
+    font-family: "Roboto Mono", monospace;
+    font-size: 82px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 780px;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+.line4{
+    position: absolute;
+    background-color: rgb(83, 161, 183);
+    width: 1200px;
+    height: 2px;
+    margin-top: 892px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.piterImg{
+    border-radius: 5px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 120px;
+}
+
+.piterLogo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 82px;
+    color: white;
+    position: absolute;
+    margin-top: 1010px;
+    margin-left: 185px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.piterInfo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #ba8273;
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 550px;
+}
+
+.piterPrice{
+    font-family: "Roboto Mono", monospace;
+    font-size: 42px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 1140px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.piterBtn {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 1140px;
+    margin-left: 780px;
+    font-weight: bold;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.piterBtn:hover {
+    transform: scale(1.05);
+}
+
+.line5{
+    position: absolute;
+    background-color: rgb(83, 161, 183);
+    width: 1200px;
+    height: 2px;
+    margin-top: 1250px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.moskwaImg{
+    border-radius: 5px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    margin-top: 1280px;
+    margin-left: 120px;
+}
+
+.moskwaLogo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 82px;
+    color: white;
+    position: absolute;
+    margin-top: 1370px;
+    margin-left: 165px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.moskwaInfo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #ba8273;
+    position: absolute;
+    margin-top: 1280px;
+    margin-left: 550px;
+}
+
+.moskwaPrice{
+    font-family: "Roboto Mono", monospace;
+    font-size: 42px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 1500px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.moskwaBtn {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 1500px;
+    margin-left: 780px;
+    font-weight: bold;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.moskwaBtn:hover {
+    transform: scale(1.05);
+}
+
+.lithuania{
+    font-family: "Roboto Mono", monospace;
+    font-size: 82px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 1610px;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+.line7{
+    position: absolute;
+    background-color: rgb(83, 161, 183);
+    width: 1200px;
+    height: 2px;
+    margin-top: 1722px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.vilniusImg{
+    border-radius: 5px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    margin-top: 1750px;
+    margin-left: 120px;
+}
+
+.vilniusInfo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #ba8273;
+    position: absolute;
+    margin-top: 1750px;
+    margin-left: 550px;
+}
+
+.vilniusPrice{
+    font-family: "Roboto Mono", monospace;
+    font-size: 42px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 1970px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.vilniusBtn {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 1970px;
+    margin-left: 780px;
+    font-weight: bold;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.vilniusBtn:hover {
+    transform: scale(1.05);
+}
+
+.line8{
+    position: absolute;
+    background-color: rgb(83, 161, 183);
+    width: 1200px;
+    height: 2px;
+    margin-top: 2080px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.kaunasImg{
+    border-radius: 5px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    margin-top: 2110px;
+    margin-left: 120px;
+}
+
+.kaunasInfo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #ba8273;
+    position: absolute;
+    margin-top: 2110px;
+    margin-left: 550px;
+}
+
+.kaunasPrice{
+    font-family: "Roboto Mono", monospace;
+    font-size: 42px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 2330px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.kaunasBtn {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 2330px;
+    margin-left: 780px;
+    font-weight: bold;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.kaunasBtn:hover {
+    transform: scale(1.05);
+}
+
+.germany{
+    font-family: "Roboto Mono", monospace;
+    font-size: 82px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 2440px;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+.line10{
+    position: absolute;
+    background-color: rgb(83, 161, 183);
+    width: 1200px;
+    height: 2px;
+    margin-top: 2552px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.berlinImg{
+    border-radius: 5px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    margin-top: 2580px;
+    margin-left: 120px;
+}
+
+.berlinLogo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 82px;
+    color: white;
+    position: absolute;
+    margin-top: 2650px;
+    margin-left: 160px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.berlinInfo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #ba8273;
+    position: absolute;
+    margin-top: 2580px;
+    margin-left: 550px;
+}
+
+.berlinPrice{
+    font-family: "Roboto Mono", monospace;
+    font-size: 42px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 2800px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.berlinBtn {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 2800px;
+    margin-left: 780px;
+    font-weight: bold;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.berlinBtn:hover {
+    transform: scale(1.05);
+}
+
+.line11{
+    position: absolute;
+    background-color: rgb(83, 161, 183);
+    width: 1200px;
+    height: 2px;
+    margin-top: 2910px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.munichImg{
+    border-radius: 5px;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    margin-top: 2940px;
+    margin-left: 120px;
+}
+
+.munichInfo{
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #ba8273;
+    position: absolute;
+    margin-top: 2940px;
+    margin-left: 550px;
+}
+
+.munichPrice{
+    font-family: "Roboto Mono", monospace;
+    font-size: 42px;
+    color: rgb(83, 161, 183);
+    position: absolute;
+    margin-top: 3160px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+
+.munichBtn {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin-top: 3160px;
+    margin-left: 780px;
+    font-weight: bold;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.munichBtn:hover {
+    transform: scale(1.05);
+}
+
+.calculator{
+    position: fixed;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 340px;
+    height: 200px;
+    margin-top: 540px;
+    margin-left: 1550px;
+}
+
+.filters {
+    position: fixed;
+    background-color: rgb(83, 161, 183);
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    margin-top: 120px;
+    margin-left: 1550px;
+    padding: 20px;
+}
+
+.filter-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Roboto Mono", monospace;
+    font-size: 36px;
+    color: rgb(83, 161, 183);
+    font-weight: bold;
+}
+
+.filter-btn:hover {
+    background-color: #ddd;
+}
+
+#min-price, #max-price {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#apply-price-filter {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#apply-price-filter:hover {
+    background-color: #ddd;
+}
+
+.filter-btn.active {
+    background-color: #ddd;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.calculator {
+    position: fixed;
+    top: 0px; /* Adjust the top position to move it higher */
+    right: 20px;
+    width: 300px;
+    height: 340px;
+    padding: 20px;
+    border-radius: 10px; /* Match the border-radius of the filters */
+    background-color: rgb(83, 161, 183); /* Match the background color of the filters */
+    text-align: left;
+    font-family: "Roboto Mono", monospace; /* Use the same font as the rest of the site */
+}
+
+.calculator h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white; /* Match the text color to the rest of the site */
+}
+
+.calculator label {
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* Match the text color to the rest of the site */
+}
+
+.calculator input, .calculator select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.calculator button {
+    background-color: white; /* Match the button color to the rest of the site */
+    color: rgb(83, 161, 183); /* Match the text color to the rest of the site */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Roboto Mono", monospace; /* Use the same font as the rest of the site */
+    font-size: 16px; /* Match the font size to the rest of the site */
+}
+
+.calculator button:hover {
+    background-color: #ddd; /* Match the hover color to the rest of the site */
+}
+
+#result {
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(0, 0, 0); /* Match the text color to the rest of the site */
+}

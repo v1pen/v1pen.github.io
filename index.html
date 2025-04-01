@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="polandFull">
+        <p class="poland">Польша</p>
+        <div class="line1"></div>
+            <img class="warsawImg" src="https://34travel.me/media/upload/images/2024/MAY/wawa/940-guide.jpg">
+            <p class="wasawInfo">Автобусный тур из вашего города<br>Отель ★★★<br>4 дня</p>
+            <p class="wasawPrice">2500 BYN</p>
+            <p class="wasawBtn">ЗАКАЗАТЬ</p>
+        <div class="line2"></div>
+
+            <img class="krakowImg" src="https://34travel.me/media/upload/images/2022/APRIL/krakow/1500.jpg">
+            <p class="krakowInfo">Автобусный тур из вашего города<br>Отель ★★★★<br>4 дня</p>
+            <p class="krakowPrice">2000 BYN</p>
+            <p class="krakowBtn">ЗАКАЗАТЬ</p>
+    </div>
+
+    <div class="russiaFull">
+        <p class="russia" id="russiaOn">Россия</p>
+        <div class="line4" id="line4On"></div>
+        <img class="piterImg" id="piterImgOn" src="https://bigpicture.ru/wp-content/uploads/2018/04/17076355_1412071878866746_531784253382328320_n.jpg">
+        <p class="piterLogo">ПИТЕР</p>
+        <p class="piterInfo" id="piterInfoOn">Автобусный тур из Минска<br>Отель ★★★★★<br>7 дней</p>
+        <p class="piterPrice" id="piterPriceOn">3500 BYN</p>
+        <p class="piterBtn" id="piterBtnOn">ЗАКАЗАТЬ</p>
+
+        <div class="line5" id="line5On"></div>
+        <img class="moskwaImg" id="moskwaImgOn" src="https://avatars.mds.yandex.net/get-vertis-journal/4080458/1efcc89a9f57d4cfa8dd0e7ee0f009cfa.jpg_1654847811483/orig">
+        <p class="moskwaLogo">МОСКВА</p>
+        <p class="moskwaInfo" id="moskwaInfoOn">Автобусный тур из Минска<br>Отель ★★★★★<br>4 дня</p>
+        <p class="moskwaPrice" id="moskwaPriceOn">4500 BYN</p>
+        <p class="moskwaBtn" id="moskwaBtnOn">ЗАКАЗАТЬ</p>
+    </div>
+
+    <div class="lithuaniaFull">
+        <p class="lithuania" id="lithuaniaOn">Литва</p>
+        <div class="line7" id="line7On"></div>
+        <img class="vilniusImg" id="vilniusImgOn" src="https://34travel.me/media/posts/6662e060b0165-1501.jpg">
+        <p class="vilniusInfo" id="vilniusInfoOn">Автобусный тур из вашего города<br>Отель ★★★★★<br>6 дней</p>
+        <p class="vilniusPrice" id="vilniusPriceOn">4500 BYN</p>
+        <p class="vilniusBtn" id="vilniusBtnOn">ЗАКАЗАТЬ</p>
+
+        <div class="line8" id="line8On"></div>
+        <img class="kaunasImg" id="kaunasImgOn" src="https://34travel.me/media/upload/images/2023/OCTOBER/kaunas/940-guide.jpg">
+        <p class="kaunasInfo" id="kaunasInfoOn">Автобусный тур из вашего города<br>Отель ★★★★<br>4 дня</p>
+        <p class="kaunasPrice" id="kaunasPriceOn">2000 BYN</p>
+        <p class="kaunasBtn" id="kaunasBtnOn">ЗАКАЗАТЬ</p>
+    </div>
+
+    <div class="germanyFull">
+        <p class="germany" id="germanyOn">Германия</p>
+        <div class="line10" id="line10On"></div>
+        <img class="berlinImg" id="berlinImgOn" src="https://static.dw.com/image/66810707_605.jpg">
+        <p class="berlinLogo" id="berlinLogoOn">БЕРЛИН</p>
+        <p class="berlinInfo" id="berlinInfoOn">Автобусный тур из вашего города<br>Отель ★★★★<br>5 дней</p>
+        <p class="berlinPrice" id="berlinPriceOn">3200 BYN</p>
+        <p class="berlinBtn" id="berlinBtnOn">ЗАКАЗАТЬ</p>
+
+        <div class="line11" id="line11On"></div>
+        <img class="munichImg" id="munichImgOn" src="https://34travel.me/media/posts/5ecba09b2070c-940.jpg">
+        <p class="munichInfo" id="munichInfoOn">Автобусный тур из вашего города<br>Отель ★★★★★<br>6 дней</p>
+        <p class="munichPrice" id="munichPriceOn">3800 BYN</p>
+        <p class="munichBtn" id="munichBtnOn">ЗАКАЗАТЬ</p>
+    </div>
+    <div class="filters">
+        <button class="filter-btn" data-country="poland">Польша</button>
+        <button class="filter-btn" data-country="russia" id="russiaBtn">Россия</button>
+        <button class="filter-btn" data-country="lithuania" id="lithuaniaBtn">Литва</button>
+        <button class="filter-btn" data-country="germany" id="germanyBtn">Германия</button>
+    </div>
+
+    <div class="calculator">
+        <h2>Конвертер валют</h2>
+        <label for="amount">Сумма:</label>
+        <input type="number" id="amount" placeholder="Введите сумму" value="1">
+    
+        <label for="fromCurrency">Из валюты:</label>
+        <select id="fromCurrency">
+            <option value="USD">USD (Доллар США)</option>
+            <option value="EUR">EUR (Евро)</option>
+            <option value="RUB">RUB (Российский рубль)</option>
+        </select>
+    
+        <label for="toCurrency">В валюту:</label>
+        <select id="toCurrency">
+            <option value="USD">USD (Доллар США)</option>
+            <option value="EUR">EUR (Евро)</option>
+            <option value="RUB">RUB (Российский рубль)</option>
+        </select>
+    
+        <button onclick="convertCurrency()">Конвертировать</button>
+        <div id="result"></div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
